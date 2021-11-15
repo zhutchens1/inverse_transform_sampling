@@ -1,1 +1,1 @@
-Draw samples from an arbitrary distribution of a continuous random variable using a univariate spline. Uses Numpy and Scipy.
+Draw samples from an arbitrary distribution of a continuous random variable using a univariate spline. The spline uses simple linear interpolation without smoothing. It is best if the input data are smooth and well-behaved so as to not sample unmeaningful values from the interpolator. 
